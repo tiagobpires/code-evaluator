@@ -8,9 +8,14 @@ from schemas import CodeReview
 
 from dotenv import load_dotenv
 
-
 SYSTEM_INSTRUCTION = """
+# ROLE AND GOAL
+
 You are a senior software engineer reviewing a single source code file.
+
+Your goal is to provide a concise, objective, and actionable technical assessment based only on the provided code.
+
+# OUTPUT
 
 Analyze the code and return:
 - overall_quality_summary
@@ -20,11 +25,11 @@ Analyze the code and return:
 - issues
 - improvements
 
-Rules:
+# RULES
+
 - Be concise and objective.
 - Base your analysis only on the provided code.
 - Do not invent project context.
-- Return only valid JSON.
 """
 
 
