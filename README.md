@@ -61,9 +61,10 @@ The model returns:
 - `improvements`
 
 ## Examples Folder
-This repository includes 3 code samples:
+This repository includes 4 code samples:
 - `examples/linear_search.py`
 - `examples/two_sum_hashmap.py`
+- `examples/search_in_sorted_array.py`
 - `examples/bubble_sort.py`
 
 Try them with:
